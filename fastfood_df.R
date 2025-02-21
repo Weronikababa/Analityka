@@ -15,7 +15,7 @@ library(ggplot2)
 library(reshape2)
 
 # Wczytanie danych
-fastfood_df <- read_csv("/Users/weronikababa/Downloads/FastFoodNutritionMenuV2.csv")
+fastfood_df <- read_csv("./FastFoodNutritionMenuV2.csv")
 
 # Czyszczenie nazw kolumn
 colnames(fastfood_df) <- make.names(colnames(fastfood_df), unique = TRUE)
